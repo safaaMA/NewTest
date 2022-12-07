@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    background: #dfe4e8;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+}
+.logo {
+    font-family: sans-serif;
+        font-size: 18px;
+}
+.logo img {
+    width: 100%;
+    margin: 0px 0 0 12px;
+}
+nav {
+    width: 70%;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+li {
+    display: block;
+    margin: 15px;
+}
+li>a {
+    font-family: sans-serif;
+    text-decoration: auto;
+    color: black;
+}
+.interface{
+    background: url(main.jpg);
+    background-size: cover;
+    height: 100vh;    
+}
+.mainTixt {
+    margin: 0px 49px 88px;
+    padding: 147px 1px;
+}
+.title{
+    font-size: 64px;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+.main-p {
+    font-size: 18px!important;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 35px 0px 35px 0px;
+}
+.main-btn {
+    border: none;
+    display: inline-block;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: rgb(7 0 0 / 65%);
+    background: #f0f8ffad;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Font Awesome 6 Brands';
+}
+.H-logo{
+    font-size: initial;
+    margin: 10px;
+}
