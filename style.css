@@ -126,8 +126,6 @@ box-sizing: border-box;
 text-decoration: none;
 color:#ffffff;
 font-weight: lighter;
-position: relative;
-z-index: 1;
 overflow: hidden;
 background-color: #000000;
 }
@@ -257,28 +255,6 @@ margin-bottom: 30px;
     max-width: 100%;
     padding: 15px;
 
-}
-
-.btn {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    background-color: #000000;
-    display: inline-block;
-    border-radius: 4px;
-    padding: 12px 30px;
-    margin: 20px 6px;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: #ffffff;
-
-
-}
-
-
-.btn:hover {
-    background-color: #c0bbbb;
-    color: #000000;
 }
 
 /*------*/
